@@ -1,0 +1,56 @@
+{%extends 'layout.html'%}
+{%block pestaña%}registro{%endblock%}
+{%block body%}
+
+
+
+<header>
+    <header>
+        <h1>registro prueba</h1>
+    </header>
+
+</header>
+
+<div class="contenedor_ini_sesiones">
+    <div>
+        <img src="../static/assets/img/logo_unillanos.png" alt="" class="logo2">
+        
+    </div>
+   
+    <form action="{{url_for('registro_log')}}" method="post">
+
+        <div class="ingreso_correo">
+            <label  for="correo_electronico">correo electrónico</label>
+            <input type="email" name="correo_electronico">
+        </div>
+
+        <div class="ingreso_password">
+            <label for="password">contraseña</label>
+            <input type="password" name="password">
+        </div>
+        
+        <button type="submit">registrar</button>
+
+        
+        
+
+        <a class="segundo_boton" href="{{url_for('index')}}">regresar</a>
+
+
+
+    </form>
+
+
+</div>
+
+
+ 
+
+
+
+
+    
+
+
+
+{%endblock%}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{%block pestaña%}layout{%endblock%}</title>
+    <link rel="stylesheet" href="../static/css/modulos_inicio_sesion.css">
+    <link rel="stylesheet" href="../static/css/inicio_sesiones.css">
+    <link rel="stylesheet" href="../static/css/Modulo_Sesion_Iniciada.css">
+    <link rel="stylesheet" href="../static/css/modulo_registros_quimica.css">
+</head>
+<body class="body">
+    {%block body%}
+
+    {% with messages = get_flashed_messages(category_filter=["correo_enviado",'correo_no_registra']) %}
+    {% if messages %}
+    
+    {% for msg in messages %}
+    {{ msg }}
+    {% endfor %}
+    
+    {% endif %}
+    {% endwith %}
+
+    
+
+
+    {%endblock%}
+
+    
+</body>
+</html>

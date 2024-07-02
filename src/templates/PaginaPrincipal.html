@@ -1,0 +1,102 @@
+{%extends 'layout.html'%}
+{%block pestaña%}pagína de inicio{%endblock%}
+{%block body%}
+<header>
+    <h1>UNILAB</h1>
+    <img src="../static/assets/img/logo_unillanos.png" alt="">
+</header>
+
+<div class="contenedor_principal">
+
+    <div class="contenedor_inicios">
+
+        <a href="{{url_for('ini_sesion')}}">
+            <div class="inicios" style="background-image: url(../static/assets/img/quimica.png);">
+                <div class="textos">
+                    <h2>Laboratorio de química</h2>
+
+                </div>
+
+            </div>
+        </a>
+
+        <a href="{{url_for('registro')}}">
+            <div class="inicios" style="background-image: url(../static/assets/img/veterinaria.jpg);">
+                <div class="textos">
+                    <h2>Laboratorio de veterinaria</h2>
+
+                </div>
+
+            </div>
+        </a>
+
+        <a href="#">
+            <div class="inicios" style="background-image: url(../static/assets/img/parasitologia.jpg);">
+                <div class="textos">
+                    <h2>Laboratorio de parasitología</h2>
+
+                </div>
+
+            </div>
+        </a>
+
+        <a href="#">
+            <div class="inicios" style="background-image: url(../static/assets/img/microbiologia.jpg);">
+                <div class="textos">
+                    <h2>Laboratorio de microbiología</h2>
+
+                </div>
+
+            </div>
+        </a>
+
+        <a href="#">
+            <div class="inicios" style="background-image: url(../static/assets/img/fisica.jpg);">
+                <div class="textos">
+                    <h2>Laboratorio de fisíca</h2>
+
+                </div>
+
+            </div>
+        </a>
+
+        <a href="#">
+            <div class="inicios" style="background-image: url(../static/assets/img/entomologia.jpg);">
+                <div class="textos">
+                    <h2>Laboratorio de entomología</h2>
+
+                </div>
+
+            </div>
+        </a>
+
+        <a href="#">
+            <div class="inicios" style="background-image: url(../static/assets/img/electronica.jpg);">
+                <div class="textos">
+                    <h2>Laboratorio de electrónica</h2>
+
+                </div>
+
+            </div>
+        </a>
+
+        <a href="#">
+            <div class="inicios" style="background-image: url(../static/assets/img/biologia.jpg);">
+                <div class="textos">
+                    <h2>Laboratorio de biología</h2>
+
+                </div>
+
+            </div>
+        </a>
+
+        
+
+
+    </div>
+  
+    
+
+</div>
+
+{%endblock%}

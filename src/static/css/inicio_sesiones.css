@@ -1,0 +1,115 @@
+.contenedor_ini_sesiones{
+    
+    
+    display: grid;
+    place-content:center;
+    position: relative;
+    height: 510px;
+    margin:30px ;
+    background-color:whitesmoke;
+    
+    
+     
+}
+/*min-height:100vh; esta configuarcion es la ams indicada para ecntar un div
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;*/
+
+.logo2{
+    width:150px;
+    position: relative;
+    bottom:100px;
+    left:5px;
+}
+
+
+.ingreso_correo{
+    display: grid;
+    position: relative;
+    bottom:50px;
+    right:20px;    
+
+}
+
+
+.ingreso_password{
+    display: grid;
+    position: relative;
+    bottom:30px;
+    right: 20px;
+    
+
+}
+
+div button{
+    position: relative;
+    left: 20px;
+    border:solid 1px black;
+    border-radius: 2px;
+    padding:1px;
+    cursor: pointer;
+    
+
+}
+
+.segundo_boton{
+    display: block;
+    position: relative;
+    left: 90px;
+    border:solid 1px black;
+    color: black;
+    margin-right: 150px;
+    bottom: 19px;
+    border-radius: 2px;
+    font-size: 82.9%;
+    padding:1px;
+    background-color: whitesmoke;
+
+}
+
+.segundo_boton:hover{
+    background-color: transparent;
+    border:solid 1px black;
+    
+
+}
+
+.olvido_password{
+    color: black;
+
+}
+
+/* configuracion de diseño de los mensajes de alerta */
+
+
+.ContenedorMensajesAlertas{
+    display: grid;
+    place-content:center;
+    position: relative;
+    bottom: 255px;
+    
+    
+}
+
+.ContenedorMensajesAlertas h2{
+    color: rgb(207, 3, 3);
+    font-size:15px;
+}
+
+.ContenedorMensajesAlertas_ventana_ingreso_nueva_contraseña{
+    display: grid;
+    place-content:center;
+    position: relative;
+    bottom: 230px;
+    
+    
+}
+
+.ContenedorMensajesAlertas_ventana_ingreso_nueva_contraseña h2{
+    color: rgb(207, 3, 3);
+    font-size:15px;
+}
+
+

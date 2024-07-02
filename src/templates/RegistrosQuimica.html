@@ -1,0 +1,44 @@
+{%extends 'layout.html'%}
+{%block pestaña%}registro{%endblock%}
+{%block body%}
+
+<header>
+    <h1>Registros</h1>
+    <img src="../static/assets/img/logo_unillanos.png" alt="">
+    
+</header>
+
+       
+   
+
+
+
+
+<div class="contenedor_principal_sesion_iniciada_registros">
+
+    <div class="contenedor_inicios_sesion_iniciada">
+        <a href="{{url_for('Quimica')}}">
+            <div class="inicios_sesion_iniciada" style="background-image: url(../static/assets/img//atras.png);"></div>
+        </a>
+        <div class="textos_sesion_iniciada">
+            <h2>Regresar</h2>
+        </div>
+
+    </div>
+
+    <div class="contenedor_inicios_sesion_iniciada">
+        <a href="#">
+            <div class="inicios_sesion_iniciada" style="background-image: url(../static/assets/img//papel.png);"></div>
+        </a>
+        <div class="textos_sesion_iniciada">
+            <h2>Gestion documental</h2>
+        </div>
+
+    </div>
+
+    
+</div>
+
+
+
+{%endblock%}

@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;}
+    
+
+.body{
+    background-color:whitesmoke;
+}
+header{
+    background-color: rgb(207, 3, 3);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 20px 20px;
+    
+    
+    
+}
+
+header h1{
+    color:white;
+    padding-right: 10px;
+}
+
+header img{
+    width: 60px;
+    height: 60px;
+    padding: 5px; 
+}
+
+.contenedor_principal{
+    display: grid;
+
+
+}
+
+.contenedor_inicios{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin: 20px;
+    
+    /* con la propiedad gap y el numero de pixeles ponemos espacios entre los
+    blokes de un modo mas facil pero esto solo funciona si usamos display gird y grid-template-columns: repeat(5, 1fr); donde
+    escogemos el nuemro de colummnas y las fracciones que van a usar cada colummna*/
+    
+
+}
+
+
+.inicios{
+    border-radius:10px;
+    border:solid 3px  rgb(207, 3, 3) ;
+    min-height:200px;
+    font-weight: bold;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    transition: all 300ms; /*colocamos el tiempo en milisegundos para la trancicion en este caso es la de agrandar o reducir una imagen*/
+}
+
+.inicios:hover{
+    transform: scale(0.90);}/*colocamos el tamño de escala de la imagen cuanmdo pasamos el cursor por ensima de ella*/
+
+
+
+.textos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+
+.textos h2{
+    color:white;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    margin-top: 65px;
+    -webkit-text-stroke-width:1px;
+    -webkit-text-stroke-color: black;
+
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    
+

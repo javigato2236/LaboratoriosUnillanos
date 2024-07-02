@@ -1,0 +1,46 @@
+{%extends 'layout.html'%}
+{%block pestaña%}inicio de sesion{%endblock%}
+{%block body%}
+
+<header>
+    <header>
+        <h1>recuperar contraseña</h1>
+    </header>
+
+</header>
+
+<div class="contenedor_ini_sesiones">
+    <div>
+        <img src="../static/assets/img/logo_unillanos.png" alt="" class="logo2">
+        
+    </div>
+   
+    <form action="{{url_for('reset_pss')}}" method="post">
+
+        <div class="ingreso_correo">
+            <label  for="email">correo electrónico</label>
+            <input type="email" name="email" id="email" >
+        </div>
+
+        <button type="submit">Enviar</button>
+
+
+        <a class="segundo_boton" href="{{url_for('ini_sesion')}}">regresar</a>
+
+
+    </form>
+
+</div>
+
+
+
+<h2 class="tex_reestablecer_contraseña">por favor ingrese el correo con el que se registro</h2>
+
+
+
+
+
+{%endblock%}
+
+
+
